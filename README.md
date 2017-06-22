@@ -11,12 +11,4 @@ pip install -r requirements.txt
 zappa deploy
 ```
 
-Note that Zappa's middleware attempts to call the Dash object as if it were a Flask object. Therefore the following 
-method was added to my dash.dash.Dash class:
- 
-```python
-def __call__(self, *args, **kwargs):
-    return self.server.__call__(*args, **kwargs)
-```
-
 Status: follow the progress on this issue: [https://github.com/plotly/dash/issues/22](https://github.com/plotly/dash/issues/22)
