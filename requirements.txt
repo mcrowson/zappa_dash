@@ -1,0 +1,7 @@
+dash==0.17.5  # The core dash backend
+dash-renderer==0.7.3  # The dash front-end
+dash-html-components==0.6.1  # HTML components
+dash-core-components==0.5.0  # Supercharged components
+plotly==2.0.10  # Plotly graphing library used in examples
+pandas
+zappa

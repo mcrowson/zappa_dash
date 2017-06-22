@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "project_name": "dash-example",
+        "app_function": "app.app",
+        "aws_region": "us-east-1",
+        "s3_bucket": "dash-zappa",
+        "slim_handler": true,
+        "runtime": "python3.6",
+        "keep_warm": false,
+        "domain": "dash.struce.com",
+        "profile_name": "struce"
+    }
+}
