@@ -1,6 +1,6 @@
-A [Dash example](https://plot.ly/dash/getting-started) deployed with  using [Zappa](https://github.com/Miserlou/Zappa)
+A [Dash example](https://plot.ly/dash/getting-started) deployed to AWS Lambda and API Gateway using [Zappa](https://github.com/Miserlou/Zappa)
 
-Currently hosted on API Gateway and AWS Lambda at [https://dash.struce.com]('https://dash.struce.com/])
+Example at [https://dash.struce.com]('https://dash.struce.com/])
 
 Modify the zappa_settings.json so it points to your bucket
 
@@ -19,4 +19,4 @@ def __call__(self, *args, **kwargs):
     return self.server.__call__(*args, **kwargs)
 ```
 
-Status: The demo is not fully functional yet and you can follow the progress on this issue: [https://github.com/plotly/dash/issues/22](https://github.com/plotly/dash/issues/22)
+Status: follow the progress on this issue: [https://github.com/plotly/dash/issues/22](https://github.com/plotly/dash/issues/22)
