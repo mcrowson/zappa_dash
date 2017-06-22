@@ -1,5 +1,7 @@
 A [Dash example](https://plot.ly/dash/getting-started) deployed with  using [Zappa](https://github.com/Miserlou/Zappa)
 
+Currently hosted on API Gateway and AWS Lambda at [https://dash.struce.com]('https://dash.struce.com/])
+
 Modify the zappa_settings.json so it points to your bucket
 
 ```bash
