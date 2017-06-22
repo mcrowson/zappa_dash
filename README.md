@@ -18,3 +18,5 @@ method was added to my dash.dash.Dash class:
 def __call__(self, *args, **kwargs):
     return self.server.__call__(*args, **kwargs)
 ```
+
+Status: The demo is not fully functional yet and you can follow the progress on this issue: [https://github.com/plotly/dash/issues/22](https://github.com/plotly/dash/issues/22)
