@@ -7,7 +7,6 @@
         "slim_handler": true,
         "runtime": "python3.6",
         "keep_warm": false,
-        "domain": "dash.struce.com",
-        "profile_name": "struce"
+        "domain": "dash.struce.com"
     }
 }
